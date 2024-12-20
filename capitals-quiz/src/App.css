@@ -1,0 +1,51 @@
+
+.app-container {
+  text-align: center;
+  margin: 100px auto 20px; /* Add space below the title */
+  padding: 20px;
+  max-width: 500px;
+  background: rgba(0, 102, 153, 0.85); /* Semi-transparent blue shade */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for better contrast */
+  color: #fff; /* White text for readability */
+}
+
+.title {
+  color: white;
+}
+
+.country-display {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.input-field {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.score-section {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
